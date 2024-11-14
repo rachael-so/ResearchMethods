@@ -37,3 +37,6 @@ esttab parallel_trends dnd_regression using "regression_results.rtf", replace //
     mtitles("Parallel Trends Test" "Difference-in-Differences") ///
     addnotes("Standard errors in parentheses", "Dependent variable: Lung Hospitalizations") ///
     nonumber noobs
+
+reg lunghospitalizations pre_treatment_trend i.stateid i.year, cluster(stateid)
+testparm i.stateid
