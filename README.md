@@ -1,3 +1,1 @@
 # ResearchMethods
-
-hw1
