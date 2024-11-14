@@ -1,0 +1,11 @@
+Table Notes
+The table includes two regression analyses: the parallel trends test (first column) and the Difference-in-Differences (DnD) regression (second column). The parallel trends test examines if trends in lung hospitalizations were parallel between states that eventually implemented a vaping ban and those that did not before 2021. The DnD regression estimates the impact of the vaping ban on lung hospitalizations.
+
+Controls: Both regressions have state and year fixed effects to control for state-specific characteristics and yearly trends.
+
+Interpretation: The parallel trends test shows a significant coefficient for pre_treatment_trend, suggesting some non-parallel trends between the two groups of states before the ban. In the DnD regression, the post_treatment_effect coefficient is significant and negative, indicating a reduction in lung hospitalizations in states with the vaping ban compared to those without.
+
+Figure Notes
+The figure displays average lung hospitalizations over time for states with (red line) and without (blue line) a vaping ban. Trends are visually parallel before 2021. After 2021, a noticeable decrease in lung hospitalizations occurs in states with the ban.
+
+Finding: The vaping ban is associated with a significant reduction in lung hospitalizations in states that implemented it, but there remains mixed evidence on the parallel trends assumption.
