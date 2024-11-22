@@ -1,0 +1,5 @@
+\begin{tabular}{l*{6}{c}}
+                          Control    Treatment   Difference   
+--------------------------------------------------------------
+Severity.Of.Crime           1.979        1.966        0.014   
+\end{tabular}
